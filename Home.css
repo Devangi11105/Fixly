@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    max-width: 100%;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px 50px;
+    background-color: white;
+    border-bottom: 2px solid #ddd;
+    width: 100%;
+    position: fixed;
+    top:0 px;
+    margin-top: 0px;
+    padding-top : 0 px;
+    position: relative;
+    height: 80px;
+
+}
+
+
+.navbar h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color:black;
+    margin:0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn.login {
+    background-color: #1F2938;
+    color: white;
+}
+
+.btn.home {
+    background-color: #1F2938;
+    color: white;
+}
+
+.book-now {
+    margin-top: 20px; 
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #1F2938;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn.tasker {
+    background-color: transparent;
+    color: black;
+} 
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  50px 80px;
+    background-color: #D1B3FF;
+    width: 100vw;
+    height: 400px;
+    margin-top:0px;
+}
+
+.hero-text {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left:20px;
+} 
+
+ 
+.hero img {
+    width: 40%;
+    height: 400px;  
+    
+    margin-right:80px;
+}
+
+
+/*-----------------------------------*/
+
+.box{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    max-width: 100%;
+    gap:15px;
+}
+
+
+.box1 img {
+    height: 270px;
+    background-size: cover;
+    border-radius: 10px;  
+    text-align: center;
+    padding:5px; 
+    margin:0;  
+}
+
+.box1{
+    height: 320px;
+    width: 17%;
+    background-color: #f9f9f9;
+    padding: 10px 10px 10px 10px; 
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;  
+}
+
+
+.last{
+    margin-top:50px;
+    height: 60px;
+    width:100%;
+    background-color: #110624;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.last p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
